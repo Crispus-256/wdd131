@@ -23,11 +23,11 @@ nav ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  display: none; /* Hide menu by default */
+  display: none; 
 }
 
 nav ul.active {
-  display: flex; /* Show menu when active */
+  display: flex; 
 }
 
 nav ul li a {
