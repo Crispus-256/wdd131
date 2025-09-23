@@ -42,15 +42,6 @@ main {
     overflow: hidden;
 }
 
-.hero-container {
-    position: relative;
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
 
 .hero-image {
     width: 100%;
