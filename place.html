@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,34 +18,36 @@
         <h1>Madagascar</h1>
     </header>
     <main>
-        <picture class="hero-image">
-            <source srcset="images/hero-small.webp" media="(max-width: 600px)">
-            <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
-            <img src="images/hero-large.webp" alt="Lemurs in Madagascar">
-        </picture>
+        <div class="hero-container">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="Lemurs in Madagascar" class="hero-image">
+            </picture>
 
-        <div class="data-box">
-            <h2>Data</h2>
-            <ul>
-                <li><strong>Area:</strong> 587,041 sq km</li>
-                <li><strong>Population:</strong> 27,691,018</li>
-                <li><strong>Capital:</strong> Antananarivo</li>
-                <li><strong>Languages:</strong> Malagasy, French</li>
-                <li><strong>Currency:</strong> Malagasy Ariary</li>
-                <li><strong>Time Zone:</strong> UTC+3</li>
-                <li><strong>Calling Code:</strong> +261</li>
-                <li><strong>Internet TLD:</strong> .mg</li>
-            </ul>
-        </div>
+            <div class="data-box">
+                <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 587,041 sq km</li>
+                    <li><strong>Population:</strong> 27,691,018</li>
+                    <li><strong>Capital:</strong> Antananarivo</li>
+                    <li><strong>Languages:</strong> Malagasy, French</li>
+                    <li><strong>Currency:</strong> Malagasy Ariary</li>
+                    <li><strong>Time Zone:</strong> UTC+3</li>
+                    <li><strong>Calling Code:</strong> +261</li>
+                    <li><strong>Internet TLD:</strong> .mg</li>
+                </ul>
+            </div>
 
-        <div class="weather-box">
-            <h2>Weather<span class="weather-icon">☁️</span></h2>
-            <ul>
-                <li><strong>Temperature:</strong> 10°C</li>
-                <li><strong>Conditions:</strong> Partly Cloudy</li>
-                <li><strong>Wind:</strong> 5 km/h</li>
-                <li><strong>Wind Chill:</strong> <span id="windchill">9.8°C</span></li>
-            </ul>
+            <div class="weather-box">
+                <h2>Weather<span class="weather-icon">☁️</span></h2>
+                <ul>
+                    <li><strong>Temperature:</strong> 10°C</li>
+                    <li><strong>Conditions:</strong> Partly Cloudy</li>
+                    <li><strong>Wind:</strong> 5 km/h</li>
+                    <li><strong>Wind Chill:</strong> <span id="windchill">9.8°C</span></li>
+                </ul>
+            </div>
         </div>
     </main>
 
