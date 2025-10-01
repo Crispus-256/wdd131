@@ -97,3 +97,8 @@ navLinks.forEach(link => {
 
 document.getElementById("current-year").textContent = new Date().getFullYear();
 document.getElementById("last-modified").textContent = new Date(document.lastModified).toLocaleDateString();
+
+document.getElementById('hamburger-btn').addEventListener('click', () => {
+  const navMenu = document.getElementById('nav-menu');
+  navMenu.classList.toggle('active');
+});
