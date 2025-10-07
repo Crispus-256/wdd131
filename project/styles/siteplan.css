@@ -1,11 +1,9 @@
-/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -14,7 +12,6 @@ body {
   padding: 1rem;
 }
 
-/* Header Styling */
 header {
   text-align: center;
   padding: 1rem;
@@ -22,7 +19,6 @@ header {
   color: white;
 }
 
-/* Main Content Styling */
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -40,7 +36,6 @@ h2 {
   color: #0074D9;
 }
 
-/* Footer Styling */
 footer {
   text-align: center;
   padding: 1rem;
@@ -49,7 +44,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* Wireframe Images */
 img {
   max-width: 100%;
   height: auto;
